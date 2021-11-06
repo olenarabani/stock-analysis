@@ -20,15 +20,16 @@ For i = 0 To 11
 Next i
 
 ''2b) Loop over all the rows in the spreadsheet.
-For i = 2 To RowCount
+For j = 2 To RowCount
+queryticker = Cells(j, 1).Value
 
     '3a) Increase volume for current ticker
-    tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value
+    tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(j, 8).Value
     
     '3b) Check if the current row is the first row with the selected tickerIndex.
     'If  Then
     If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i - 1, 1).Value <> tickers(tickerIndex) Then
-        tickerStartingPrices(tickerIndex) = Cells(i, 6).Value
+        tickerStartingPrices(tickerIndex) = Cells(j, 6).Value
     End If
     
     '3c) check if the current row is the last row with the selected ticker
