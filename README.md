@@ -1,6 +1,6 @@
-# `**Overview of Project: Explain the purpose of this analysis.**`
+# `*Overview of Project: Explain the purpose of this analysis.*`
 In this challenge,   I edit, or refactor, tsolution code to loop through all the data one time in order to collect the same information of stocks in 2017 and 2018 years. Then, I’ll determine whether refactoring my code successfully made the VBA script run faster. Finally, I’ll present a written analysis that explains my findings
-# **Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.**
+# *Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.*
 Before refactoring the code, I began by copying the code that was needed to create the input box, chart headers, ticker array, and to activate the appropriate worksheet. The steps were then listed out in order to set the structure for the refactoring. Below is the instruction and code as written in the file.
 
 '1a) Create a ticker Index
@@ -60,7 +60,7 @@ Next i
 
 ![All Stocks 2018](https://github.com/olenarabani/stock-analysis/blob/main/Code%20ran%202018.png)
 
-# **Summary: In a summary statement, address the following questions.**
+# *Summary: In a summary statement, address the following questions.*
 
 ## What are the advantages or disadvantages of refactoring code?
 Disadvantages:
