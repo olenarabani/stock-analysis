@@ -56,10 +56,9 @@ For i = 0 To 11
 Next i
 
 
-![All Stocks 2017](https://github.com/olenarabani/stock-analysis/blob/main/All%20Stocks%202017.png)
+![All Stocks 2017](https://github.com/olenarabani/stock-analysis/blob/main/Code%20ran%202017.png)
 
-![All Stocks 2018](https://github.com/olenarabani/stock-analysis/blob/main/All%20Stocks%202018.png)
-
+![All Stocks 2018](https://github.com/olenarabani/stock-analysis/blob/main/Code%20ran%202018.png)
 
 # **Summary: In a summary statement, address the following questions.**
 
